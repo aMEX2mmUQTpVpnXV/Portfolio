@@ -15,7 +15,7 @@ export default function Navigation() {
         <Routes>
           <Route exact path="/home" element={<Home />} />
           <Route exact path="/about" element={<About />} />
-          <Route exact path="/projects" element={<Projects />} />
+          <Route exact path="/projects" element={<About />} />
           <Route exact path="/credits" element={<Credits />} />
           <Route exact path="/royal-road" element={<RoyalRoad />} />
           <Route exact path="personas" element={<Personas />} />
