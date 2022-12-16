@@ -107,11 +107,11 @@ function Projects() {
           </div>
         </div>
 
-        {/* Redesign */}
+        {/* Remodeling */}
         <div style={styles.project}>
           <div style={styles.caption}>
             <div style={styles.title}>
-              <div style={{ color: "#001A51" }}>Redesign</div>
+              <div style={{ color: "#001A51" }}>Remodeling</div>
             </div>
             <div style={styles.text}>
               Royal Road is the home of thousands of web novels made by amateur
