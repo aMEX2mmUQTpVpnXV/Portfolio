@@ -13,13 +13,13 @@ export default function Navigation() {
     <div>
       <Router basename="/Portfolio">
         <Routes>
-          <Route path="/Portfolio/home" element={<Home />} />
-          <Route path="/Portfolio/about" element={<About />} />
-          <Route path="/Portfolio/projects" element={<Projects />} />
-          <Route path="/Portfolio/credits" element={<Credits />} />
-          <Route path="/Portfolio/royal-road" element={<RoyalRoad />} />
-          <Route path="/Portfolio/personas" element={<Personas />} />
-          <Route path="/Portfolio" element={<Home />} />
+          <Route exact path="/Portfolio/home" element={<Home />} />
+          <Route exact path="/Portfolio/about" element={<About />} />
+          <Route exact path="/Portfolio/projects" element={<Projects />} />
+          <Route exact path="/Portfolio/credits" element={<Credits />} />
+          <Route exact path="/Portfolio/royal-road" element={<RoyalRoad />} />
+          <Route exact path="/Portfolio/personas" element={<Personas />} />
+          <Route exact path="/Portfolio" element={<Home />} />
         </Routes>
       </Router>
     </div>
