@@ -9,11 +9,11 @@ const Modal = ({ open, toggleOpenModal }) => {
       <div style={styles.modalContainer} onClick={(e) => e.stopPropagation()}>
         <h2 style={styles.header}>Welcome to my UI-UX portfolio!</h2>
         <p style={styles.text}>
-          Floating around in space are objects that represent projects and
-          pieces of my portfolio. Click any of them to navigate to the
-          associated project! If you would like to learn more details about any
-          of the projects please navigate to the projects section using the
-          navbar at the top. Enjoy! {heart}
+          Objects that represent projects and pieces of my portfolio are
+          floating around in space. Click any of them to navigate to the
+          associated project! If you would like more details about any of the
+          projects please navigate to the projects section using the navbar at
+          the top. Enjoy! {heart}
         </p>
         <Button onClick={() => toggleOpenModal()} style={styles.button}>
           Close
