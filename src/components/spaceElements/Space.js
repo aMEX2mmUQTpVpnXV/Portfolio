@@ -53,7 +53,7 @@ function Space(props) {
         />
         <Nugget x={10} y={-2} z={-1} rotX={0} rotY={0} rotZ={0} scale={2} />{" "}
         <Nugget x={12} y={0} z={0} rotX={0} rotY={0} rotZ={0} scale={2} />
-        <House x={9} y={0} z={0} rotX={0} rotY={0} rotZ={0} scale={0.2} />
+        <House x={9} y={2} z={-0.5} rotX={0} rotY={0} rotZ={0} scale={0.2} />
       </Canvas>
     </Wrapper>
   );
