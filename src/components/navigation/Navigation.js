@@ -12,7 +12,7 @@ import Iterative from "../pages/IterativeDesign/Iterative";
 export default function Navigation() {
   return (
     <div>
-      <Router basename={process.env.PUBLIC_URL}>
+      <Router>
         <Routes>
           <Route exact path="/home" element={<Home />} />
           <Route exact path="/about" element={<About />} />
@@ -21,7 +21,7 @@ export default function Navigation() {
           <Route exact path="/royal-road" element={<RoyalRoad />} />
           <Route exact path="/personas" element={<Personas />} />
           <Route exact path="/iterative" element={<Iterative />} />
-          <Route exact path="*" element={<Home />} />
+          <Route exact path="/" element={<Home />} />
         </Routes>
       </Router>
     </div>
