@@ -11,7 +11,7 @@ import Personas from "../pages/Personas/Personas";
 export default function Navigation() {
   return (
     <div>
-      <Router basename="/">
+      <Router basename="/Portfolio">
         <Routes>
           <Route exact path="/" element={<Home />} />
           <Route exact path="/home" element={<Home />} />
