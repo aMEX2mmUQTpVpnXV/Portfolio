@@ -8,6 +8,7 @@ import Credits from "../pages/Credits";
 import RoyalRoad from "../pages/RoyalRoad/src/RoyalRoad";
 import Personas from "../pages/Personas/Personas";
 import Iterative from "../pages/IterativeDesign/Iterative";
+import Remodel from "../pages/RoyalRoad/Remodel";
 
 export default function Navigation() {
   return (
@@ -21,6 +22,7 @@ export default function Navigation() {
           <Route exact path="/royal-road" element={<RoyalRoad />} />
           <Route exact path="/personas" element={<Personas />} />
           <Route exact path="/iterative" element={<Iterative />} />
+          <Route exact path="/remodel" element={<Remodel />} />
           <Route exact path="/" element={<Home />} />
         </Routes>
       </Router>

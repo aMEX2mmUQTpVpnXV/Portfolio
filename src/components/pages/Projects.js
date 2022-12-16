@@ -120,7 +120,7 @@ function Projects() {
               visually appealing interface.{" "}
             </div>
           </div>
-          <Link to="/royal-road" target="_blank" rel="noopener noreferrer">
+          <Link to="/remodel" target="_blank" rel="noopener noreferrer">
             <Banner
               hoverScale={hoverScale}
               tapScale={tapScale}
