@@ -45,7 +45,7 @@ export function Book(props) {
       <mesh
         ref={myMesh}
         onClick={() =>
-          openInNewTab("https://amex2mmuqtpvpnxv.github.io/Royal-Road/")
+          openInNewTab("https://amex2mmuqtpvpnxv.github.io/Portfolio/#/remodel")
         }
       >
         <group rotation={[-Math.PI / 2, 0, 0]}>

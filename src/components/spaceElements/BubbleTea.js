@@ -38,7 +38,7 @@ export function BubbleTea(props) {
         ref={myMesh}
         onClick={() =>
           openInNewTab(
-            "https://amex2mmuqtpvpnxv.github.io/Personas-StoryBoarding/#Title"
+            "https://amex2mmuqtpvpnxv.github.io/Portfolio/#/personas"
           )
         }
       >

@@ -49,7 +49,9 @@ export function Astronaut(props) {
     >
       <mesh
         ref={myMesh}
-        onClick={() => openInNewTab("http://localhost:3000/about")}
+        onClick={() =>
+          openInNewTab("https://amex2mmuqtpvpnxv.github.io/Portfolio/#/about")
+        }
       >
         <group name="Sketchfab_Scene">
           <group name="Sketchfab_model" rotation={[-Math.PI / 2, 0, 0]}>

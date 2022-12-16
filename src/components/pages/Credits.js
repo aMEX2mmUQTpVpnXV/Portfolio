@@ -45,6 +45,17 @@ function Credits() {
             >
               Rocket icons created by Freepik - Flaticon
             </a>
+            <br></br>
+            <br></br>
+            <a href="https://www.freepik.com/free-vector/cute-dog-sitting-cartoon-vector-icon-illustration-animal-nature-icon-concept-isolated-premium-vector-flat-cartoon-style_18380938.htm#query=labrador%20logo&position=2&from_view=keyword">
+              Image by catalyststuff
+            </a>{" "}
+            on Freepik
+            <br></br>
+            <br></br>
+            <a href="https://www.freeiconspng.com/img/3346">
+              Heart Icon Png Free
+            </a>
           </p>
         </div>
       </div>

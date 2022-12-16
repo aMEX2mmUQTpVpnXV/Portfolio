@@ -6,6 +6,8 @@ import Banner from "../animated/Banner";
 import project1 from "../../assets/banners/boba.svg";
 import project2 from "../../assets/banners/roomkast.svg";
 import project3 from "../../assets/banners/royalroad.svg";
+import project4 from "../../assets/banners/puppies.svg";
+
 import downIcon from "../../assets/down-icon.png";
 
 function Projects() {
@@ -127,6 +129,26 @@ function Projects() {
               img={project3}
             />
           </Link>
+        </div>
+
+        {/* Responsive Redesign */}
+        <div style={styles.projectReverse}>
+          <Link to="/responsive" target="_blank" rel="noopener noreferrer">
+            <Banner
+              hoverScale={hoverScale}
+              tapScale={tapScale}
+              img={project4}
+            />
+          </Link>
+          <div style={styles.caption}>
+            <div style={styles.title}>
+              <div style={{ color: "#ffbf00" }}>Responsive Redesign</div>
+            </div>
+            <div style={styles.text}>
+              In this project I redesign the wesite that my family bought our
+              puppy from, resulting in a much needed upgrade!{" "}
+            </div>
+          </div>
         </div>
         <br></br>
         <br></br>
