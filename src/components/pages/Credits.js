@@ -56,6 +56,16 @@ function Credits() {
             <a href="https://www.freeiconspng.com/img/3346">
               Heart Icon Png Free
             </a>
+            <br></br>
+            <br></br>
+            "Mars Mission Specialist Nugget" (https://skfb.ly/6ZNsO) by
+            lulu9green is licensed under Creative Commons Attribution
+            (http://creativecommons.org/licenses/by/4.0/).
+            <br></br>
+            <br></br>
+            "Flying Up House" (https://skfb.ly/ovYDQ) by aitordsgn is licensed
+            under Creative Commons Attribution
+            (http://creativecommons.org/licenses/by/4.0/).
           </p>
         </div>
       </div>

@@ -8,6 +8,8 @@ import background from "./../../assets/space/space-bg5.png";
 import { Astronaut } from "./Astronaut";
 import { Text, Text3D } from "@react-three/drei";
 import { Button } from "@mui/material";
+import { Nugget } from "./Nugget";
+import { House } from "./House";
 
 function Space(props) {
   return (
@@ -49,6 +51,9 @@ function Space(props) {
           rotZ={-0.5}
           scale={7}
         />
+        <Nugget x={10} y={-2} z={-1} rotX={0} rotY={0} rotZ={0} scale={2} />{" "}
+        <Nugget x={12} y={0} z={0} rotX={0} rotY={0} rotZ={0} scale={2} />
+        <House x={9} y={0} z={0} rotX={0} rotY={0} rotZ={0} scale={0.2} />
       </Canvas>
     </Wrapper>
   );

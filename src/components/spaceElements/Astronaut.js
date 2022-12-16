@@ -21,7 +21,6 @@ export function Astronaut(props) {
   };
 
   useFrame(({ clock }) => {
-    const a = clock.getElapsedTime();
     myMesh.current.rotation.x += 0.0;
     myMesh.current.rotation.y += 0.0;
     myMesh.current.rotation.z += 0.01;
