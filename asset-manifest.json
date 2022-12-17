@@ -1,13 +1,17 @@
 {
   "files": {
     "main.css": "/Portfolio/static/css/main.45cf5bc6.css",
-    "main.js": "/Portfolio/static/js/main.ac72d54e.js",
+    "main.js": "/Portfolio/static/js/main.04949d45.js",
     "static/js/787.1ed0c42c.chunk.js": "/Portfolio/static/js/787.1ed0c42c.chunk.js",
     "static/media/roomkast.svg": "/Portfolio/static/media/roomkast.a56f6758ff24578a5862218f1e4b020e.svg",
+    "static/media/Hifi Tablet Annotated.svg": "/Portfolio/static/media/Hifi Tablet Annotated.5692018e03c65c405d1492427ddefc40.svg",
+    "static/media/Hifi Web.svg": "/Portfolio/static/media/Hifi Web.61fac9b5ad6f0e45aff8b512b8877ff0.svg",
     "static/media/After.png": "/Portfolio/static/media/After.367d1c6d9baaf01ae2de.png",
     "static/media/wireframes_2.svg": "/Portfolio/static/media/wireframes_2.f0200e803da0793545a23b325e39738c.svg",
     "static/media/wireframes_3.svg": "/Portfolio/static/media/wireframes_3.49665a578c20c701ff99867a326b49d2.svg",
+    "static/media/Hifi Mobile.svg": "/Portfolio/static/media/Hifi Mobile.d6bee1fee4088a86e6014332274103c0.svg",
     "static/media/wireframes_1.svg": "/Portfolio/static/media/wireframes_1.2221ab4189983e6240032afbd05cf286.svg",
+    "static/media/Lofi Web Annotated.svg": "/Portfolio/static/media/Lofi Web Annotated.ae5ae811dc7cbe4caea4abf58b8d4225.svg",
     "static/media/sketches_2.svg": "/Portfolio/static/media/sketches_2.8b46c23818d8fae35abef37de8b7efc0.svg",
     "static/media/Before.png": "/Portfolio/static/media/Before.37111fa954be730eb03a.png",
     "static/media/sketches_3.svg": "/Portfolio/static/media/sketches_3.2afb023779511bdbd039ebbedc186cb7.svg",
@@ -24,9 +28,11 @@
     "static/media/critique_6.svg": "/Portfolio/static/media/critique_6.f153e67456887e2e5782e57ba6a058f4.svg",
     "static/media/Visual Style Design Guide.svg": "/Portfolio/static/media/Visual Style Design Guide.57ebc4af19ff5555c0ae94989e273b9c.svg",
     "static/media/Purchase_Screen.png": "/Portfolio/static/media/Purchase_Screen.2a900e309740ff5e8f9b.png",
+    "static/media/Lofi Mobile Annotated.svg": "/Portfolio/static/media/Lofi Mobile Annotated.517b8cafa7c46da6dfb8dac786d3527c.svg",
     "static/media/boba.svg": "/Portfolio/static/media/boba.fac82ba995a589e7f0641c1df211e3f5.svg",
     "static/media/Start_Screen.png": "/Portfolio/static/media/Start_Screen.a6b19e3146ae61b1cec9.png",
     "static/media/Selection_Screen.png": "/Portfolio/static/media/Selection_Screen.307b8de6cab9d918d66d.png",
+    "static/media/Lofi tablet.png": "/Portfolio/static/media/Lofi tablet.01b0a63635447886c139.png",
     "static/media/Cheerful_Chloe.png": "/Portfolio/static/media/Cheerful_Chloe.06779a96ffdd2847d47f.png",
     "static/media/Tired_Tim.png": "/Portfolio/static/media/Tired_Tim.73c2079ef7c52b29713c.png",
     "static/media/roomcast_description.png": "/Portfolio/static/media/roomcast_description.95387366972d66e0cc12.png",
@@ -59,11 +65,11 @@
     "static/media/Slide 6.png": "/Portfolio/static/media/Slide 6.709e9d30e215505b6e21.png",
     "index.html": "/Portfolio/index.html",
     "main.45cf5bc6.css.map": "/Portfolio/static/css/main.45cf5bc6.css.map",
-    "main.ac72d54e.js.map": "/Portfolio/static/js/main.ac72d54e.js.map",
+    "main.04949d45.js.map": "/Portfolio/static/js/main.04949d45.js.map",
     "787.1ed0c42c.chunk.js.map": "/Portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.45cf5bc6.css",
-    "static/js/main.ac72d54e.js"
+    "static/js/main.04949d45.js"
   ]
 }
