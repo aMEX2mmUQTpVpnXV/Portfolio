@@ -3,6 +3,12 @@ import before from "../RoyalRoad/Before.png";
 import after from "../RoyalRoad/After.png";
 import designGuide from "./assets/Visual Style Design Guide.svg";
 import preview from "./assets/Preview.png";
+import lofiWeb from "./assets/Lofi Web Annotated.svg";
+import lofiTablet from "./assets/Lofi tablet.png";
+import lofiMobile from "./assets/Lofi Mobile Annotated.svg";
+import hifiWeb from "./assets/Hifi Web.svg";
+import hifiMobile from "./assets/Hifi Mobile.svg";
+import hifiTablet from "./assets/Hifi Tablet Annotated.svg";
 
 function Responsive() {
   return (
@@ -130,32 +136,76 @@ function Responsive() {
             Note: Further details about how we address the aforementioned issues
             are included in the images.
           </p>
-          <p>Here are our low-fidelity prototypes:</p>
-          <a href="assets/Lofi Web Annotated.svg" target="_blank">
-            Web
-          </a>
+          <div style={styles.sectionHeader2}>
+            <p>Low-Fidelity Prototypes</p>
+          </div>
+          <div style={styles.row}>
+            <div style={styles.col}>
+              <p>Web</p>
+              <img
+                src={lofiWeb}
+                style={styles.proto}
+                zoom={true}
+                border={true}
+              />
+            </div>
+            <br></br>
+            <div style={styles.col}>
+              <p>Mobile</p>
+              <img
+                src={lofiMobile}
+                style={styles.proto}
+                zoom={true}
+                border={true}
+              />
+            </div>
+            <br></br>
+            <div style={styles.col}>
+              <p>Tablet</p>
+              <img
+                src={lofiTablet}
+                style={styles.proto}
+                zoom={true}
+                border={true}
+              />
+            </div>
+          </div>
           <br></br>
-          <a href="assets/Lofi Mobile Annotated.svg" target="_blank">
-            Mobile
-          </a>
           <br></br>
-          <a href="assets/Lofi Tablet.png" target="_blank">
-            Tablet
-          </a>
-          <br></br>
-          <br></br>
-          <p>Here are our high-fidelity prototypes:</p>
-          <a href="assets/Hifi Web.svg" target="_blank">
-            Web
-          </a>
-          <br></br>
-          <a href="assets/Hifi Mobile.svg" target="_blank">
-            Mobile
-          </a>
-          <br></br>
-          <a href="assets/Hifi Tablet Annotated.svg" target="_blank">
-            Tablet
-          </a>
+          <div style={styles.sectionHeader2}>
+            <p>High-Fidelity Prototypes</p>
+          </div>
+          <div style={styles.row}>
+            <div style={styles.col}>
+              <p>Web</p>
+              <img
+                src={hifiWeb}
+                style={styles.proto}
+                zoom={true}
+                border={true}
+              />
+            </div>
+            <br></br>
+            <div style={styles.col}>
+              <p>Mobile</p>
+              <img
+                src={hifiMobile}
+                style={styles.proto}
+                zoom={true}
+                border={true}
+              />
+            </div>
+            <br></br>
+            <div style={styles.col}>
+              <p>Tablet</p>
+              <img
+                src={hifiTablet}
+                style={styles.proto}
+                zoom={true}
+                border={true}
+              />
+            </div>
+          </div>
         </div>
         <div style={styles.sectionHeader}>Conclusion</div>
         <hr></hr>
@@ -240,6 +290,7 @@ const styles = {
     display: "flex",
     flexDirection: "column",
     width: "45%",
+    textAlign: "center",
   },
   row: {
     display: "flex",
@@ -258,6 +309,9 @@ const styles = {
   preview: {
     width: "100%",
     marginTop: "40px",
+  },
+  proto: {
+    height: "500px",
   },
 };
 
